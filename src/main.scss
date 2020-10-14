@@ -1,0 +1,41 @@
+/*! 
+
+    Theme Name: Pineapple Frontend
+    Author: Nikolas Haug
+    Author URI: https://nikolashaug.com
+    Description: A lightweight sass/css framework with lightweight JS components
+    Version: 2.0
+
+*/
+
+//====================================================
+// CONFIG
+//====================================================
+
+@import "./styles/variables.scss";
+@import "./styles/mixins.scss";
+
+
+//====================================================
+// RESET
+//====================================================
+
+@import "./styles/normalize.scss";
+@import "./styles/reset.scss";
+@import "./styles/base.scss";
+
+
+//====================================================
+// COMPONENTS
+//====================================================
+
+@import "./styles/components.scss";
+@import "./styles/navigation.scss";
+@import "./styles/layout.scss";
+@import "./styles/utilities.scss";
+
+//====================================================
+// CUSTOM STYLES
+//====================================================
+
+@import "./styles/custom.scss";
